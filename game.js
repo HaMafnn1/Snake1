@@ -3,8 +3,8 @@ const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
 const scale = 20;  // Size of each block in the grid
-const rows = 40;   // Number of rows (increased for larger game area)
-const cols = 50;   // Number of columns (increased for larger game area)
+const rows = 30;   // Number of rows (increased for larger game area)
+const cols = 30;   // Number of columns (increased for larger game area)
 canvas.width = scale * cols;
 canvas.height = scale * rows;
 
